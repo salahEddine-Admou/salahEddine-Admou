@@ -1,14 +1,14 @@
 pipeline {
   environment {
-    registry = "aishdockerid/simple-web-application"
-    registryCredential = 'aishdockerid'
+    registry = "salaheddineadmou/devops"
+    registryCredential = 'salaheddineadmou'
     dockerImage = ''
   }
   agent any
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/7Aishwarya/Simple-Web-Application1.git'
+        git 'https://github.com/salahEddine-Admou/salahEddine-Admou.git'
       }
     }
     stage('Build') {
