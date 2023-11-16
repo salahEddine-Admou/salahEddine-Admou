@@ -2,7 +2,7 @@ pipeline {
   environment {
     registry = "salaheddineadmou/devops"
     registryCredential = 'salaheddineadmou'
-    dockerImage = ''
+    dockerImage = 'simple-web-application'
   }
   agent any
   stages {
